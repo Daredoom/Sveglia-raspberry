@@ -27,7 +27,7 @@ class sveglia(wx.Frame):
         self.Bind(wx.EVT_KEY_DOWN, self.cambiaVolume)
         self.ShowFullScreen(True)
 
-    def cambiaVolume(self, evt):
+    def cambiaFrequenza(self, evt):
         keyCode = evt.GetKeyCode()
         # print(keyCode)
         if keyCode == 43:
